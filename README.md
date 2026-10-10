@@ -1,123 +1,198 @@
+<h2 id="français">🇫🇷 Version française</h2>
+
 <div align="center">
 
-# ✒️ INK88
+# 🎯 ink88 — MC88
 
-**A quiet archive for 1-bit text art — drop a file in the folder, watch it come alive.**
+**Une collection exclusive d'art ASCII en 1 bit.**
 
 </div>
 
+🌍 **Langues :** [Français](#français) · [English](#english)
+
 ---
+
+> **En bref** — ink88 est une galerie d'art ASCII qui charge automatiquement des fichiers texte depuis un dossier.
+> 
+> **Chargement dynamique · Copie en un clic · Design parchemin**
+
+<!-- 
+## 📸 Aperçu
+
+<div align="center">
+  <img src="https://github.com/MC-MC88/[REPO]/raw/main/images/Sc1.png" alt="[Description]" width="100%" />
+</div>
+
+---
+
+🔗 **Démo en ligne :** [https://MC-MC88.github.io/[REPO]/](https://MC-MC88.github.io/[REPO]/)
+📦 **Code source :** [https://github.com/MC-MC88/[REPO]](https://github.com/MC-MC88/[REPO]/)
+-->
+
+## 👋 Bienvenue
+
+ink88 est un fichier HTML unique. Il lit les fichiers .txt du dossier « art » et les affiche sous forme de cartes. Chaque carte a un bouton pour copier l'art ASCII.
+
+---
+
+## ✨ Ce que vous trouverez
+
+**Chargement automatique des fichiers.**  
+Le site lit les fichiers art/1.txt, art/2.txt, etc. jusqu'à ce qu'un fichier soit manquant.
+
+**Copie en un clic.**  
+Un bouton copie l'art ASCII dans le presse-papiers.
+
+**Écran d'accueil.**  
+Un écran de démarrage avec une animation de plume. Cliquez pour passer.
+
+**Design vintage.**  
+Police Tangerine, fond parchemin, accents dorés.
+
+**Responsive.**  
+S'adapte aux petits écrans, réduit la taille de la police ASCII.
+
+---
+
+## 🧭 Comment ça marche
+
+**1. Ouvrez le fichier HTML.**  
+Aucune installation n'est requise.
+
+**2. L'écran d'accueil s'affiche.**  
+Cliquez pour continuer.
+
+**3. Le site charge les fichiers du dossier « art » un par un.**  
+Chaque fichier .txt devient une carte.
+
+**4. Cliquez sur « Copy to Clipboard » pour copier.**  
+Le texte est copié dans le presse-papiers.
+
+C'est tout. Aucune configuration.
+
+---
+
+## 🛠️ Petits coups de main
+
+**Où mettre mes fichiers ASCII ?**  
+Dans un dossier nommé « art » à côté du fichier HTML. Nommez-les 1.txt, 2.txt, etc.
+
+**Que se passe-t-il si un fichier manque ?**  
+Le chargement s'arrête au premier fichier manquant. Les fichiers suivants ne sont pas chargés.
+
+**Puis-je utiliser un autre nom de dossier ?**  
+Non, le code utilise le dossier « art ».
+
+**Le site fonctionne-t-il hors ligne ?**  
+Oui, une fois les fichiers chargés. Mais le chargement initial nécessite un serveur local ou un accès aux fichiers.
+
+---
+
+<br /><br /><br />
+
+<h2 id="english">🇬🇧 English version</h2>
+
+<div align="center">
+
+# 🎯 ink88 — MC88
+
+**An exclusive collection of 1-bit ASCII art.**
+
+</div>
+
+🌍 **Languages:** [Français](#français) · [English](#english)
+
+---
+
+> **In short** — ink88 is an ASCII art gallery that automatically loads text files from a folder.
+> 
+> **Dynamic loading · One-click copy · Parchment design**
+
+<!-- 
+## 📸 Preview
+
+<div align="center">
+  <img src="https://github.com/MC-MC88/[REPO]/raw/main/images/Sc1.png" alt="[Description]" width="100%" />
+</div>
+
+---
+
+🔗 **Live demo:** [https://MC-MC88.github.io/[REPO]/](https://MC-MC88.github.io/[REPO]/)
+📦 **Source code:** [https://github.com/MC-MC88/[REPO]](https://github.com/MC-MC88/[REPO]/)
+-->
 
 ## 👋 Welcome
 
-Most digital archives of text art bury their contents under heavy JavaScript frameworks, complex routing, and bloated loading screens. By the time the page finally renders, the art itself has lost its raw, minimalist impact.
-
-INK88 takes the opposite, purist path. It operates with no external framework, no heavy dependencies, and no manual list maintenance. Instead of parsing a single monolithic file, it reads directly from a dedicated `art` folder, loading individual artwork files sequentially (`1.txt`, `2.txt`, and so on) until the archive concludes. 
-
-Every artwork is framed within an old paper catalog aesthetic: a warm cream background, delicate thin rules, a classic serif font for labels, and `Courier Prime` monospace for the art where it belongs. Accompanied by an elegant 6-second quill animation upon entry, INK88 gets entirely out of the way, letting the 1-bit text art speak for itself.
-
----
-
-## 📸 Look Inside
-
-<br />
-
-<div align="center">
-  <img src="https://github.com/mohamed005cheikh-rgb/INK88-MC88/raw/main/images/preview-1.png" alt="The INK88 archive homepage" width="100%" />
-  <br />
-  <sub><b>① The archive and vintage catalog</b></sub>
-</div>
-
-<br />
-<br />
-
-<div align="center">
-  <img src="https://github.com/mohamed005cheikh-rgb/INK88-MC88/raw/main/images/preview-2.png" alt="A single artwork row" width="100%" />
-  <br />
-  <sub><b>② A single catalog row with classic framing</b></sub>
-</div>
-
-<br />
-<br />
-
-<div align="center">
-  <img src="https://github.com/mohamed005cheikh-rgb/INK88-MC88/raw/main/images/preview-3.png" alt="INK88 on mobile" width="100%" />
-  <br />
-  <sub><b>③ The same archive, viewed on a mobile device</b></sub>
-</div>
+ink88 is a single HTML file. It reads .txt files from the "art" folder and displays them as cards. Each card has a button to copy the ASCII art.
 
 ---
 
 ## ✨ What you'll find
 
-**An organized `art` folder structure.** Instead of packing everything into one massive file, the archive lives inside a dedicated `art` folder. Each piece of art has its own clean text file (`1.txt`, `2.txt`, `3.txt`, etc.). The smart sequential loader detects and displays them automatically in order. Adding new art is as simple as dropping a new numbered text file into the folder.
+**Automatic file loading.**  
+The site reads art/1.txt, art/2.txt, etc. until a file is missing.
 
-**A 6-second poetic splash screen.** Upon opening the archive, an elegant SVG quill animation draws itself across a parchment canvas, accompanied by classic typography. You can watch the art unfold or simply click anywhere to skip directly into the gallery.
+**One-click copy.**  
+A button copies the ASCII art to the clipboard.
 
-**A timeless vintage paper aesthetic.** The background simulates warm vintage parchment. The container features soft shadows and subtle corner ornaments. Headings use classic serif typography with wide letter-spacing, while the art itself is safely bound in `Courier Prime` monospace to protect its exact alignment and shape.
+**Splash screen.**  
+A start screen with a feather animation. Click to skip.
 
-**Numbered entries, from `#001` upward.** Every artwork receives an automatic, elegant catalog number in its header (`#001`, `#002`, `#003`...), derived directly from its file index. No manual bookkeeping or ID management required.
+**Vintage design.**  
+Tangerine font, parchment background, gold accents.
 
-**Copy feature under maintenance.** The clipboard copy functionality is currently undergoing maintenance and improvements to ensure a flawless experience, and will return in the very near future, Insha'Allah. Meanwhile, enjoy browsing and downloading your favorite pieces freely.
-
-**Responsive layout protecting pixel alignment.** On widescreen monitors and mobile devices alike, the layout adapts gracefully. The `pre` block scrolls horizontally on smaller screens rather than wrapping lines, ensuring that wide drawings never suffer from character displacement.
-
-**Zero overhead, zero tracking.** INK88 requires no database, no backend CMS, and no tracking scripts. It is a lightweight, pure static experience that respects your privacy and can run seamlessly anywhere.
+**Responsive.**  
+Adapts to small screens, reduces the ASCII font size.
 
 ---
 
 ## 🧭 How it works
 
-**1. Set up your workspace.** Ensure your `index.html` file sits alongside an `art/` folder in your project directory.
+**1. Open the HTML file.**  
+No installation is required.
 
-**2. Populate the `art` folder.** Place your 1-bit text art inside individual text files named sequentially (`1.txt`, `2.txt`, `3.txt`, etc.) inside the `art` folder.
+**2. The splash screen appears.**  
+Click to continue.
 
-**3. Launch the archive.** Open the page via a local server (`python3 -m http.server`, Live Server) or deploy it instantly on GitHub Pages. Direct `file://` opening is blocked by modern browser security policies for local fetches.
+**3. The site loads files from the "art" folder one by one.**  
+Each .txt file becomes a card.
 
-**4. Experience the welcome screen.** Watch the 6-second quill animation render or click anywhere on the screen to enter the gallery immediately.
+**4. Click "Copy to Clipboard" to copy.**  
+The text is copied to your clipboard.
 
-**5. Add new art effortlessly.** Whenever you create a new piece, simply save it as the next sequential number (e.g., `4.txt`) inside the `art` folder and push or refresh. The engine will pick it up automatically.
+That's it. No configuration.
 
 ---
 
-## 🛠️ Frequently Asked Questions
+## 🛠️ A little help
 
-**"The page says it cannot load the art files."** Make sure you are running the project through a local development server or static host like GitHub Pages rather than double-clicking `index.html` directly, as browsers restrict local file access (`file://`).
+**Where do I put my ASCII files?**  
+In a folder named "art" next to the HTML file. Name them 1.txt, 2.txt, etc.
 
-**"How do I add a new artwork?"** Just create a new text file inside the `art` folder named with the next consecutive number (e.g., `3.txt`) containing your 1-bit art, and refresh your browser.
+**What happens if a file is missing?**  
+Loading stops at the first missing file. Subsequent files are not loaded.
 
-**"My art formatting looks misaligned."** Ensure your text files use consistent spacing and avoid mixing tabs with spaces. The `pre` element preserves exact whitespace characters.
+**Can I use another folder name?**  
+No, the code uses the "art" folder.
 
-**"When will the copy button return?"** The copy feature is currently under active maintenance and will be restored very soon, Insha'Allah.
-
-**"Can I customize the folder name?"** Yes, you can modify the folder path inside the JavaScript fetch logic if you prefer a different directory name.
+**Does it work offline?**  
+Yes, once the files are loaded. But the initial load requires a local server or file access.
 
 ---
 
 <div align="center">
 
-### 📞 Questions, ideas, or feedback?
+### 📞 Une question, une idée ? / A question, an idea?
 
 [![Email](https://img.shields.io/badge/Email-mohamed005cheikh@gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamed005cheikh@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-+222_30_73_64_75-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/22230736475)
-[![GitHub](https://img.shields.io/badge/GitHub-mohamed005cheikh--rgb-181717?style=flat-square&logo=github)](https://github.com/mohamed005cheikh-rgb)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+222_30_72_64_75-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/22230726475)
+[![GitHub](https://img.shields.io/badge/GitHub-MC--MC88-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MC-MC88)
+[![Portfolio](https://img.shields.io/badge/Portfolio-MC88-000?style=flat-square&logo=github&logoColor=white)](https://MC-MC88.github.io/MC88/)
 
 <br />
 
-*Write in text. Read in text. Nothing more.*
+*Art ASCII / ASCII art*
 
-<sub>© 2026 Mohamed Cheikh — MC88</sub>
-
-<br />
-<br />
-
-    ███    ███    ████████    ████████    ████████
-    ████  ████   ███    ███  ███    ███  ███    ███
-    ██ ████ ██   ███         ███    ███  ███    ███
-    ██  ██  ██   ███          ████████    ████████
-    ██      ██   ███         ███    ███  ███    ███
-    ██      ██   ███    ███  ███    ███  ███    ███
-    ██      ██    ████████    ████████    ████████
+<sub>MIT License · © 2026 Mohamed Cheikh — MC88</sub>
 
 </div>
-
